@@ -17,17 +17,18 @@ function nowServing(katzDeliLine) {
 
 function currentLine(katzDeliLine) {
   var position = i + 1;
-  var names = 
-  
-  if (katzDeliLine.length === 0) {
+  var names = asd;
+
+  if(katzDeliLine.length === 0) {
     return "The line is currently empty.";
   }
-  else {
-    for(var i = 0; i < katzDeliLine.length; i++) {
-      
-    }
+  for() {
+    
   }
 }
+
+
+
 
 
 
