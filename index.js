@@ -28,9 +28,10 @@ function currentLine(katzDeliLine) {
       names += `${position}. ${name}`;
     }
     else {
-      names += `${position}. ${name},`
+      names += `${position}. ${name}, `;
     }
   }
+  return katzDeliLine;
 }
 
 
