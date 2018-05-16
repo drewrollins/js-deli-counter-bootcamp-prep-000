@@ -31,7 +31,7 @@ function currentLine(katzDeliLine) {
       names += `${position}. ${name}, `;
     }
   }
-  return katzDeliLine;
+  return names;
 }
 
 
