@@ -16,14 +16,14 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  var position = i + 1;
   var names = "The line is currently: ";
-  var name = katzDeliLine[i];
 
   if(katzDeliLine.length === 0) {
     return "The line is currently empty.";
   }
   for(var i = 0; i < katzDeliLine.length; i++) {
+    var position = i + 1;
+    var name = katzDeliLine[i];
     if (position === katzDeliLine.length) {
       names += `${position}. ${name}`;
     }
@@ -33,7 +33,6 @@ function currentLine(katzDeliLine) {
   }
   return names;
 }
-
 
 
 
